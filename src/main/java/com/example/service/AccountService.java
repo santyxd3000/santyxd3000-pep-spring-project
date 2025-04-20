@@ -44,6 +44,6 @@ public class AccountService {
 
     //Find user by id
     public Optional<Account> findByUserId(Integer id){
-        return accountRepository.findById(id)
+        return accountRepository.findById(id);
     }
 }
